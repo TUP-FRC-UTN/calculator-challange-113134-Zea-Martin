@@ -1,0 +1,12 @@
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Espacia uniformemente los botones */
+    margin-bottom: 10px; /* Espacio entre los grupos de botones */
+  }
+  
+  .button-group button {
+    width: 60px; /* Ancho de cada botón */
+    height: 60px; /* Alto de cada botón */
+    font-size: 20px; /* Tamaño de fuente de los botones */
+  }
+  

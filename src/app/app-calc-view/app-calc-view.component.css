@@ -1,0 +1,18 @@
+.calculator-container {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+    justify-content: center; /* Centra verticalmente los elementos */
+    text-align: center; /* Centra el texto dentro del contenedor */
+  }
+  
+  .calculator-container div {
+    margin-bottom: 10px; /* Espacio entre los elementos */
+  }
+  
+  .calculator-container input {
+    width: 200px; /* Ajusta el ancho del input */
+    padding: 10px; /* Añade algo de padding para un mejor aspecto */
+    font-size: 16px; /* Ajusta el tamaño de fuente del input */
+  }
+  

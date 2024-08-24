@@ -1,0 +1,23 @@
+<div class="calculator-container">
+  <h1>Calculadora</h1>
+  <div>
+    <label>Valor 1</label>
+  </div>
+  <div>
+    <input [value]="num1" (input)="onNum1Change($event)" (change)="eventoNums()" type="number" placeholder="Ingrese el primer valor" />
+  </div>
+  <p></p>
+  <div>
+    <label>Valor 2</label>
+  </div>
+  <div>
+    <input [value]="num2" (input)="onNum2Change($event)" (change)="eventoNums()" type="number" placeholder="Ingrese el segundo valor" />
+  </div>
+  <p></p>
+  <div>
+    <label>Resultado</label>
+  </div>
+  <div>
+    <input value="{{resultado}}" type="number" disabled/>
+  </div>
+</div>

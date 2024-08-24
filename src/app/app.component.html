@@ -1,0 +1,15 @@
+<div class="main-container">
+  <div class="calculator">
+    <app-calc-view 
+      [resultado]="resultado" 
+      (asignarNum1)="actualizarNum1($event)" 
+      (asignarNum2)="actualizarNum2($event)">
+    </app-calc-view>
+
+    <app-calc-actions 
+      [num1]="numero1" 
+      [num2]="numero2" 
+      (actualizarResultado)="valorResultado($event)">
+    </app-calc-actions>
+  </div>
+</div>
